@@ -11,13 +11,13 @@ export default function Home(){
                 stuff.
             </Paragraph>
 
-            <h2>Contacts</h2>
+            <h2 className='mb-0'>Contacts</h2>
             <Paragraph>
                 Check out the website listed for more information!
                 <li><LinkNewWindow href='https://unitedwayatlanta.org/'>United Way of Greater Atlanta!</LinkNewWindow></li>
             </Paragraph>
 
-            <h3 className='text-2xl font-extrabold mt-8 mb-2'>Credits</h3>
+            <h3 className='text-2xl font-extrabold mt-2'>Credits</h3>
             <li><LinkNewWindow href='https://www.shadertoy.com/view/4tdSWr'>Background of the website!</LinkNewWindow></li>
         </article>
     </div>
