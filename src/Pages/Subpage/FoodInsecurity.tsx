@@ -31,13 +31,31 @@ export default function FoodInsecurity(){
                 State of Food Security and Nutrition in the World Report</LinkNewWindow></li>
             </Paragraph>
 
-            <h2>What Can I do about it? </h2>
+            <h2>What Can I do about it?</h2>
             <Paragraph>
                 There are many things that you can do to help to help with food insecurity in your local area. 
                 You can donate food to local volunteer or non-profit organizations that distribute food. 
                 
                 You can also encourage people close to you to eat healthier foods with the necessary nutrients, 
                 as there are some people who have the ability to eat healthier but don't.  
+            </Paragraph>
+
+            <h2>What Food should I eat?</h2>
+            <Paragraph>
+                There is no food in particular that you can eat for a healthy lifestyle. 
+                Rather, any healthy diet should include food from all food groups in order to get adequate nutrition. 
+                
+                These groups include fruit, vegetables, grains, and protein foods. 
+                You can also have food or drink from dairy groups in order to get some vitamins. 
+                Together, the food from these groups should give you a healthy amount of fat, protein, carbohydrates, 
+                and vitamins along with total calories.    
+            </Paragraph>
+
+            <h3 className="text-2xl font-extrabold mt-6">Credits</h3>
+            <Paragraph>
+                <li><LinkNewWindow href="https://www.un.org/en/global-issues/food#:~:text=Apart%20from%20hunger%2C%20the%20report,under%20five%20suffer%20from%20malnutrition">UN.Org</LinkNewWindow></li>
+
+                <li><LinkNewWindow href="https://www.usda.gov/media/blog/2017/09/26/back-basics-all-about-myplate-food-groups#:~:text=As%20the%20MyPlate%20icon%20shows,key%20building%20blocks%2C%20plus%20oils">USDA.Gov</LinkNewWindow></li>
             </Paragraph>
         </article>
     </div>
