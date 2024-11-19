@@ -6,8 +6,8 @@ export default function Navbar(){
         <Link to="/">Home</Link>
 
         <ul>
-            <li><Link to="/proj">Projects</Link></li>
-            <li><LinkNewWindow href="https://github.com/Intermentality" noColorChange>Github</LinkNewWindow></li>
+            <li><Link to="/FI">Food Insecurity</Link></li>
+            <li><Link to="/FS">Food Scarcity</Link></li>
         </ul>
     </nav>
 }
