@@ -1,8 +1,8 @@
 {
-    "name": "intermentality.github.io",
+    "name": "fs-fi-web.pages.dev.",
     "version": "0.0.0",
     "license": "MIT",
-    "homepage": "https://intermentality.github.io",
+    "homepage": "fs-fi-web.pages.dev",
     "scripts": {
         "dev": "vite",
         "build": "tsc && vite build",
