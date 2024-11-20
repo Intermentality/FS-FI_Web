@@ -7,6 +7,7 @@ export default function Navbar(){
         <ul>
             <li><Link to="/FI">Food Insecurity</Link></li>
             <li><Link to="/FS">Food Scarcity</Link></li>
+            <li><Link to="/S">Solutions</Link></li>
         </ul>
     </nav>
 }

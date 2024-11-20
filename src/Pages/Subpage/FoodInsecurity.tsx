@@ -6,7 +6,7 @@ export default function FoodInsecurity(){
         <article className="my-4 p-2 w-full max-w-sm md:max-w-2xl">
             <h1>Food Insecurity</h1>
 
-            <h2>What is Food Insecurity?</h2>
+            <h2 className="-mb-2">What is Food Insecurity?</h2>
             <Paragraph>
                 You may have heard of food scarcity or food insecurity before,
                  but what are they? Food Scarcity concerns lack of food, 
@@ -20,7 +20,7 @@ export default function FoodInsecurity(){
                  it may not have the necessary nutritional value.  
             </Paragraph>
 
-            <h2>How Prevalent is Food Insecurity?</h2>
+            <h2 className="-mb-2">How Prevalent is Food Insecurity?</h2>
             <Paragraph>
                 A little less than 40 million Americans suffer from food insecurity, 
                 nearly 12 million of those being children. Worldwide, that number is far larger. 
@@ -31,7 +31,7 @@ export default function FoodInsecurity(){
                 State of Food Security and Nutrition in the World Report</LinkNewWindow></li>
             </Paragraph>
 
-            <h2>What Can I do about it?</h2>
+            <h2 className="-mb-2">What Can I do about it?</h2>
             <Paragraph>
                 There are many things that you can do to help to help with food insecurity in your local area. 
                 You can donate food to local volunteer or non-profit organizations that distribute food. 
@@ -40,7 +40,7 @@ export default function FoodInsecurity(){
                 as there are some people who have the ability to eat healthier but don't.  
             </Paragraph>
 
-            <h2>What Food should I eat?</h2>
+            <h2 className="-mb-2">What Food should I eat?</h2>
             <Paragraph>
                 There is no food in particular that you can eat for a healthy lifestyle. 
                 Rather, any healthy diet should include food from all food groups in order to get adequate nutrition. 
@@ -51,10 +51,9 @@ export default function FoodInsecurity(){
                 and vitamins along with total calories.    
             </Paragraph>
 
-            <h3 className="text-2xl font-extrabold mt-6">Credits</h3>
+            <h3 className="text-2xl font-extrabold mt-6 -mb-2">Credits</h3>
             <Paragraph>
                 <li><LinkNewWindow href="https://www.un.org/en/global-issues/food#:~:text=Apart%20from%20hunger%2C%20the%20report,under%20five%20suffer%20from%20malnutrition">UN.Org</LinkNewWindow></li>
-
                 <li><LinkNewWindow href="https://www.usda.gov/media/blog/2017/09/26/back-basics-all-about-myplate-food-groups#:~:text=As%20the%20MyPlate%20icon%20shows,key%20building%20blocks%2C%20plus%20oils">USDA.Gov</LinkNewWindow></li>
             </Paragraph>
         </article>

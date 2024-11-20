@@ -11,6 +11,7 @@ export default function Home(){
             <Paragraph>
                 <li><Link to='/FI' className="text-sky-300">Food Insecurity</Link></li>
                 <li><Link to='/FS' className="text-sky-300">Food Scarcity</Link></li>
+                <li><Link to='/S' className="text-sky-300">Solutions</Link></li>
             </Paragraph>
 
             <h2 className='text-2xl mb-0 mt-4'>Contacts</h2>
