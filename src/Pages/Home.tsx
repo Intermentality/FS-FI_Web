@@ -1,7 +1,6 @@
 import { LinkNewWindow } from '../Components/Link';
 import { Paragraph } from '../Components/Paragraph';
 import { Link } from 'react-router-dom';
-import { TypeAnimation } from 'react-type-animation';
 
 export default function Home(){
     return <div className="relative grid place-items-center">
