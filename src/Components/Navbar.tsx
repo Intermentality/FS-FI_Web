@@ -1,5 +1,4 @@
 import { Link } from "react-router-dom"
-import { LinkNewWindow } from "./Link"
 
 export default function Navbar(){
     return <nav className="Nav">

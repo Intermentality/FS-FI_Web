@@ -6,27 +6,15 @@ import { TypeAnimation } from 'react-type-animation';
 export default function Home(){
     return <div className="relative grid place-items-center">
         <article className="my-4 p-2 w-full max-w-sm md:max-w-2xl">
-            <TypeAnimation className='text-4xl font-extrabold mt-2 mb-2'
-                sequence={[
-                    'Food Help!',
-                    1000,
-                    'Food Info!',
-                    1000,
-                    'Food Information!',
-                    1000,
-                    'Food Explaination!',
-                    1000,
-                ]}
-                speed={50}
-            />
+            <h1 className='text-5xl.'>Food Explaination!</h1>
 
-            <h2>Info Pages</h2>
+            <h2 className="">Info Pages</h2>
             <Paragraph>
                 <li><Link to='/FI' className="text-sky-300">Food Insecurity</Link></li>
                 <li><Link to='/FS' className="text-sky-300">Food Scarcity</Link></li>
             </Paragraph>
 
-            <h2 className='text-2xl mb-0'>Contacts</h2>
+            <h2 className='text-2xl mb-0 mt-4'>Contacts</h2>
             <Paragraph>
                 Check out the website listed for more information!
                 <li><LinkNewWindow href='https://unitedwayatlanta.org/'>United Way of Greater Atlanta!</LinkNewWindow></li>
