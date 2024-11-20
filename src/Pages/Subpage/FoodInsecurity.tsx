@@ -51,7 +51,7 @@ export default function FoodInsecurity(){
                 and vitamins along with total calories.    
             </Paragraph>
 
-            <h3 className="text-2xl font-extrabold mt-6 -mb-2">Credits</h3>
+            <h3 className="text-2xl font-extrabold mt-6 -mb-2">Sources</h3>
             <Paragraph>
                 <li><LinkNewWindow href="https://www.un.org/en/global-issues/food#:~:text=Apart%20from%20hunger%2C%20the%20report,under%20five%20suffer%20from%20malnutrition">UN.Org</LinkNewWindow></li>
                 <li><LinkNewWindow href="https://www.usda.gov/media/blog/2017/09/26/back-basics-all-about-myplate-food-groups#:~:text=As%20the%20MyPlate%20icon%20shows,key%20building%20blocks%2C%20plus%20oils">USDA.Gov</LinkNewWindow></li>

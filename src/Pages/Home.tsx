@@ -14,7 +14,7 @@ export default function Home(){
                 <li><Link to='/S' className="text-sky-300">Solutions</Link></li>
             </Paragraph>
 
-            <h2 className='text-2xl mb-0 mt-4'>Contacts</h2>
+            <h2 className='text-2xl -mb-2 mt-4'>Contacts</h2>
             <Paragraph>
                 Check out the website listed for more information!
                 <li><LinkNewWindow href='https://unitedwayatlanta.org/'>United Way of Greater Atlanta!</LinkNewWindow></li>
