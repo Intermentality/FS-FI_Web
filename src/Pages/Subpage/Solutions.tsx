@@ -8,18 +8,50 @@ export default function Solutions(){
 
             <h2 className="-mb-2">Awarness</h2>
             <Paragraph>
-                Awarness is a key factor of everything, 
-                and it's the number one step. 
-                Without awarness, food insecurity and 
-                food scarcity would be a larger issue. 
-                This can be such as not knowing what the 
-                supply chain is for food and not knowing alternatives 
-                to a regular supply chain if it somehow fails. 
+            Awareness is a key factor of everything, 
+            and it's the number one step. 
+            
+            Without awareness, 
+            food insecurity and food scarcity would be a larger issue. 
+            
+            This can be such as not knowing what the supply 
+            chain is for food and not knowing alternatives to a 
+            regular supply chain if it somehow fails. 
+            
+            For example, if one major operation that shutdown 
+            due to bankruptcy, then many communities could have 
+            issues getting that one type of food that company 
+            manufactured. 
+            </Paragraph>
 
-                For example, if one major coperation that 
-                shutsdown due to bankruptcy, then many communities 
-                could have issues getting that one type of food 
-                that company manufactured. 
+            <h2 className="-mb-2">Transformations for Food Drives</h2>
+            <Paragraph>By: Rebecca, McKenzie, Ian, & Hayden.</Paragraph>
+            <Paragraph>
+                <h3 className="font-extrabold text-xl mt-4">Pros</h3>
+                <li>Requires little effort to rehydrate foods. 
+                (Boil water in a pot.)</li>
+                
+                <li>Foods in dehydrated form take up 
+                    less storage space.</li>
+
+                <li>Loast much longer than undried produce.
+                    (Several months.)</li>
+
+                <li>Dehydrated produce retains most
+                    of the nutrients.
+                    (Minus vitamin A and C)
+                    and most can be rehydrated easily.</li>
+
+                <h3 className="font-extrabold text-xl mt-2">Cons</h3>
+                <li>Because of their small serving sizes
+                    and high calories, they
+                    can cause people to overeat.</li>
+                
+                <li>Not as nutritious as fresh foods.</li>
+
+                <li>Fewer donations of fresh
+                    produce due to the fact that donors
+                    are required to dry it themselves.</li>
             </Paragraph>
 
             <h2 className="-mb-2">Technological</h2>

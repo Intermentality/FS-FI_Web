@@ -7,7 +7,12 @@ export default function Home(){
         <article className="my-4 p-2 w-full max-w-sm md:max-w-2xl">
             <h1 className='text-5xl.'>Food Explaination!</h1>
 
-            <h2 className="">Info Pages</h2>
+            <Paragraph>
+                Mr.Jones class website regarding Food Insecurity &
+                Food Scarcity!
+            </Paragraph>
+
+            <h2 className="-mt-0">Info Pages</h2>
             <Paragraph>
                 <li><Link to='/FI' className="text-sky-300">Food Insecurity</Link></li>
                 <li><Link to='/FS' className="text-sky-300">Food Scarcity</Link></li>
@@ -21,7 +26,6 @@ export default function Home(){
             </Paragraph>
 
             <h3 className='text-xl font-extrabold mt-2'>Credits</h3>
-            <li><LinkNewWindow href='https://github.com/Intermentality'>Website designer!</LinkNewWindow></li>
             <li><LinkNewWindow href='https://www.shadertoy.com/view/4tdSWr'>Background of the website!</LinkNewWindow></li>
         </article>
     </div>
