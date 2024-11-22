@@ -1,6 +1,7 @@
 import { LinkNewWindow } from '../Components/Link';
 import { Paragraph } from '../Components/Paragraph';
 import { Link } from 'react-router-dom';
+import QRCode from 'react-qr-code';
 
 export default function Home(){
     return <div className="relative grid place-items-center">
@@ -27,6 +28,9 @@ export default function Home(){
 
             <h3 className='text-xl font-extrabold mt-2'>Credits</h3>
             <li><LinkNewWindow href='https://www.shadertoy.com/view/4tdSWr'>Background of the website!</LinkNewWindow></li>
+
+            <h2 className="text-xl font-extrabold mt-2">View it on your phone!</h2>
+            <QRCode size={200} value="https://fs-fi-web.pages.dev/" />
         </article>
     </div>
 }
