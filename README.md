@@ -12,23 +12,23 @@
 ### Why is React-router using HashRouter instead of BrowserRouter?
 - BrowserRouter isn't supported on GitHub while HashRouter is.
 - HashRouter is all client-sided routing instead of server-sided.
-[More information regarding HashRouter vs BrowserRouter](https://stackoverflow.com/questions/51974369/what-is-the-difference-between-hashrouter-and-browserrouter-in-react)
+- [More information regarding HashRouter vs BrowserRouter](https://stackoverflow.com/questions/51974369/what-is-the-difference-between-hashrouter-and-browserrouter-in-react)
 
 ## What sites host websites for free and where you don't need a domain for?
 Both GitHub Pages and Cloudflare Pages offer free hosting for Single Page Applications.
 Single Page Applications are just websites with only one page with no reloading required to access other content (subpages in this case with routers).
 - GitHub Pages requires public GitHub repositories.
 - Cloudflare Pages allows private GitHub repositories.
-[GitHub Pages](https://docs.github.com/en/pages/getting-started-with-github-pages/creating-a-github-pages-site)
-[Cloudflare Pages](https://pages.cloudflare.com/)
+- [GitHub Pages](https://docs.github.com/en/pages/getting-started-with-github-pages/creating-a-github-pages-site)
+- [Cloudflare Pages](https://pages.cloudflare.com/)
 
 ### How do I set it up?
-You'll need to first upload a repository with GitHub.
-I would recommend using GitHub desktop for this.
+- You'll need to first upload a repository with GitHub.
+- I would recommend using GitHub desktop for this.
 
-Then I would change the package.json to the website domain you're going to use.
-GitHub: "username".github.io
-Cloudflare: "repo-name".pages.dev
+- Then I would change the package.json to the website domain you're going to use.
+- GitHub: "username".github.io
+- Cloudflare: "repo-name".pages.dev
 
 GitHub:
 - Make sure to head to your repo settings -> Pages.
@@ -42,13 +42,13 @@ Cloudflare:
 
 ## What is this based off of?
 This whole project is based off of @0b5vr portfolio website.
-[0b5vr Website Repo.](https://github.com/0b5vr/0b5vr.github.io)
-[0b5vr Website.](https://0b5vr.com/)
+- [0b5vr Website Repo.](https://github.com/0b5vr/0b5vr.github.io)
+- [0b5vr Website.](https://0b5vr.com/)
 
 The background is based off of Shadertoy.
-[Background Website.](https://www.shadertoy.com/)
-[Background being used.](https://www.shadertoy.com/view/4tdSWr)
-[NPM Module of Shadertoy](https://www.npmjs.com/package/shadertoy-react)
+- [Background Website.](https://www.shadertoy.com/)
+- [Background being used.](https://www.shadertoy.com/view/4tdSWr)
+- [NPM Module of Shadertoy](https://www.npmjs.com/package/shadertoy-react)
 
 
 
@@ -56,8 +56,8 @@ The background is based off of Shadertoy.
 ## Local Computer
 Either Yarn or NodeJS to install packages.
 Use CTRL+C to exit dev mode of each package manager if you ran it.
-[Yarn](https://classic.yarnpkg.com/lang/en/docs/install/#windows-stable) <- What I'm using.
-[NodeJS NPM](https://nodejs.org/en/learn/getting-started/an-introduction-to-the-npm-package-manager)
+- [Yarn](https://classic.yarnpkg.com/lang/en/docs/install/#windows-stable) <- What I'm using.
+- [NodeJS NPM](https://nodejs.org/en/learn/getting-started/an-introduction-to-the-npm-package-manager)
 
 ### Yarn
 Installing the packages with Yarn.
@@ -92,8 +92,8 @@ npm i [NPM Package-Name with no brackets]
 
 # Development
 ## How do I add more packages?
-Use [NPM](https://www.npmjs.com/) to get more modules for react!
-Make sure to have see a TS icon on the side of the name as well on NPM website!
+- Use [NPM](https://www.npmjs.com/) to get more modules for react!
+- Make sure to have see a TS icon on the side of the name as well on NPM website!
 
 ### Yarn (Adding/Removing)
 ```
