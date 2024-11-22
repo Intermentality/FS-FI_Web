@@ -27,9 +27,21 @@ export default function Home(){
             </Paragraph>
 
             <h3 className='text-xl font-extrabold mt-2'>Credits</h3>
+            <li><LinkNewWindow href='https://github.com/Intermentality'>Website designer!</LinkNewWindow></li>
             <li><LinkNewWindow href='https://www.shadertoy.com/view/4tdSWr'>Background of the website!</LinkNewWindow></li>
+            <Paragraph>
+            <p className='text-sm -mt-2'>
+                To look at the code, it'll be on my computer during showcase as it's private. 👍
+            </p>
+            </Paragraph>
 
-            <h2 className="text-xl font-extrabold mt-2">View it on your phone!</h2>
+            <Paragraph>
+            <p className='text-sm -mt-2'>
+            It's a Typescript React website with Vite! ❤️
+            </p>
+            </Paragraph>
+
+            <h2 className="text-xl font-extrabold -mb-0 mt-2">View it on your phone!</h2>
             <QRCode size={200} value="https://fs-fi-web.pages.dev/" />
         </article>
     </div>
